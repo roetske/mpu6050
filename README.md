@@ -8,24 +8,24 @@ Measure angles turning =>balancing
 
 Mpu6050 or adxl345 are good starters.
 Coding so many examples and once you start you get stuck so easy at least i did.
-Setup gyro 
-/131   +-250 °/s
-/65.5  +500)°/s
-/32.8  +1000°/s
-/16.4  +2000°/s
-Setup acc
-2g 4g 8 g 16g
-16384 2g
-8192 4g
-4096 8g
-2048 169
-filters did not explore this yet
+Setup gyro <br />
+/131   +-250 °/s<br />
+/65.5  +500)°/s<br />
+/32.8  +1000°/s<br />
+/16.4  +2000°/s<br />
+Setup acc<br />
+2g 4g 8 g 16g<br />
+16384 2g<br />
+8192 4g<br />
+4096 8g<br />
+2048 16g<br />
+filters did not explore this yet<br />
 
-gyro values deg/s
-acc in g
-you have extra value temperature you can read from mpu6050.
+gyro values deg/s<br />
+acc in g<br />
+you have extra value temperature you can read from mpu6050.<br />
 
-Watch out you have to convert to rad when using tan sin etc in arduino angles are in rad!!!.
+Watch out you have to convert to rad when using tan sin etc in arduino angles are in rad!!!.<br />
 
 # applications
 
