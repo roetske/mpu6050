@@ -1,3 +1,5 @@
+//code from joop with arduin0 refreshing writing lcd one char at a time
+
 void write_LCD(){                                                      //Subroutine for writing the LCD
   //To get a 250Hz program loop (4us) it's only possible to write one character per loop
   //Writing multiple characters is taking to much time
