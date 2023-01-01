@@ -6,8 +6,8 @@ What can you do with accelerometer?
 Measure acc x y z---- =>vibration measurement
 Measure angles turning =>balancing
 
-Mpu6050 or adxl345 are good starters.
-Coding so many examples and once you start you get stuck so easy at least i did.
+Mpu6050 or adxl345 are good starters.<br />
+Coding so many examples and once you start you get stuck so easy at least i did.<br />
 Setup gyro <br />
 /131   +-250 °/s<br />
 /65.5  +500)°/s<br />
