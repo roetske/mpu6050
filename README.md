@@ -29,13 +29,13 @@ Watch out you have to convert to rad when using tan sin etc in arduino angles ar
 
 # applications
 
-Vibrations acc values. 
-    acc rawdata /16384 settingfor setting 2g gives you g value (note when flat accz = 10 = g accx accy should be 0.
-When measuring angles you need to refresh at fix sample rate.
-   See code calculation in code. used calc from example joop.
- Measure speed =>no you cannot measure speed with mpu6050.
+Vibrations acc values. <br />
+    acc rawdata /16384 settingfor setting 2g gives you g value (note when flat accz = 10 = g accx accy should be 0.<br />
+When measuring angles you need to refresh at fix sample rate.<br />
+   See code calculation in code. used calc from example joop.<br />
+ Measure speed =>no you cannot measure speed with mpu6050.<br />
 
-Use of filter to stabilize your readings.
+Use of filter to stabilize your readings.<br />
 
 #  Links
 1)joop brokken natural wonder explaining how : https://www.youtube.com/watch?v=4BoIE8YQwM8 <br />
