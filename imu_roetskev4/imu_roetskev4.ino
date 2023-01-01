@@ -15,7 +15,7 @@ levelshifter
 i2c 
 sda gpio21 
 scl pgio22
-led 27
+
 
 0x68 mpu6050
 0x27 lcd
