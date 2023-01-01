@@ -40,7 +40,9 @@ Use of filter to stabilize your readings.<br />
 #  Links
 1)joop brokken natural wonder explaining how : https://www.youtube.com/watch?v=4BoIE8YQwM8 <br />
 2)Adafuit mpu6050 one of the most extensive and well written libs but i struggled to measure angles.<br />
-Cycletime >50ms not good for me. <br />
+     Cycletime >50ms not good for me. <br />
+3)https://github.com/jrowberg/i2cdevlib/tree/master/Arduino/MPU6050 <br />
+     what a lib but found it hard to use (must be me) problem cannot load lib you have to use include with "" <br />
 Note:<br />
 Cherrytree freeware program to make project file. Top tool to keep notes for your projects.<br />
 Tip include "somelib.h" when this file is in your sketch folder it will load. Stumbled on this during project nice to know.<br />
