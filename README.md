@@ -38,12 +38,12 @@ When measuring angles you need to refresh at fix sample rate.
 Use of filter to stabilize your readings.
 
 #  Links
-1)joop brokken natural wonder explaining how : https://www.youtube.com/watch?v=4BoIE8YQwM8
-2)Adafuit mpu6050 one of the most extensive and well written libs but i struggled to measure angles.
-Cycletime >50ms not good for me. 
-Note:
-Cherrytree freeware program to make project file. Top tool to keep notes for your projects.
-Tip include "somelib.h" when this file is in your sketch folder it will load. Stumbled on this during project nice to know.
-Tip use tab in arduino ide to write subs in separate tabs. makes coding it bit easier.
+1)joop brokken natural wonder explaining how : https://www.youtube.com/watch?v=4BoIE8YQwM8 <br />
+2)Adafuit mpu6050 one of the most extensive and well written libs but i struggled to measure angles.<br />
+Cycletime >50ms not good for me. <br />
+Note:<br />
+Cherrytree freeware program to make project file. Top tool to keep notes for your projects.<br />
+Tip include "somelib.h" when this file is in your sketch folder it will load. Stumbled on this during project nice to know.<br />
+Tip use tab in arduino ide to write subs in separate tabs. makes coding it bit easier.<br />
 
 
