@@ -33,9 +33,13 @@ Vibrations acc values. <br />
     acc rawdata /16384 settingfor setting 2g gives you g value (note when flat accz = 10 = g accx accy should be 0.<br />
 When measuring angles you need to refresh at fix sample rate.<br />
    See code calculation in code. used calc from example joop.<br />
- Measure speed =>no you cannot measure speed with mpu6050.<br />
+   in short when measuring angles.
+   stading still calibrate gyro.(evaluate 2000 readings and determine offset <>0)<br />
+   Measure gyro with fixed time cycle<br />
+   Compensate gyrodrift with accangle.<br />
+   Use of filter to stabilize your readings.<br /> 
+Measure speed =>no you cannot measure speed with mpu6050.<br />
 
-Use of filter to stabilize your readings.<br />
 
 #  Links
 1)joop brokken natural wonder explaining how : https://www.youtube.com/watch?v=4BoIE8YQwM8 <br />
