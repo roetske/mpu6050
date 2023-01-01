@@ -48,7 +48,7 @@ Measure speed =>no you cannot measure speed with mpu6050.<br />
 3)https://github.com/jrowberg/i2cdevlib/tree/master/Arduino/MPU6050 <br />
      what a lib but found it hard to use (must be me) problem cannot load lib you have to use include with "" <br />
 Note:<br />
-Cherrytree freeware program to make project file. Top tool to keep notes for your projects.<br />
+Cherrytree freeware program to make project file. Top tool to keep notes for your projects. *.ctd extension<br />
 Tip include "somelib.h" when this file is in your sketch folder it will load. Stumbled on this during project nice to know.<br />
 Tip use tab in arduino ide to write subs in separate tabs. makes coding it bit easier.<br />
 
