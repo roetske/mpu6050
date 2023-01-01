@@ -1,8 +1,5 @@
 
-/*Terms of use
-TWARE.
-
-
+/*
 ///////////////////////////////////////////////////////////////////////////////////////
 //Support based on version from joop brokken
 ///////////////////////////////////////////////////////////////////////////////////////
@@ -40,7 +37,6 @@ waardes opslaan als processor herstart om gelijk welke reden zal die opnieuw kal
 //Initialize the LCD library
 LiquidCrystal_I2C lcd(0x27,20,4);
 
-#define Led 27
 #define sda 21
 #define scl 22
 
