@@ -5,17 +5,22 @@ Measure acc x y z---- =>vibration measurement<br />
 Measure angles turning =>balancing<br />
 Gyro units = deg/s<br />
 Acc units = g  9.81m/s*s<br />
-See cherry file.
+See cherry file (*.ctd).
 
 What a ride to get it working correct :).<br />
+    - settings mpu6050 conf see cherry file.
     - issues calibration <br />
         -accz average = (value -g) /samples <br />
-    - formulas jeezes got lost in the beginning what is correct. 
-    - Yaw is not stable with mpu6050 due to the fact no magnetometer.<br />
-    - To measure angles you need to sampletime reading that not varies.
-
+    - formulas jeezes got lost in the beginning what is correct. <br />
+            - if you want to measure vibrations you only need acc values - offset_acc <br />
+               no formulas needed just have to know acc values are in g units.<br />
+            - angles (roll,pitch,yaw) are combination of acc and gyro <br />
+                   - and here you need your formulas <br />
+                   - gyro values have to be measured at fix samplerate for calculations.<br />
+            - Yaw is not stable with mpu6050 due to the fact no magnetometer.<br />   
+            
 Roll and pitch work fine now and stable.<br /> 
-Provide button for calibration.
+Provided button for calibration. <br /> 
 Save offsets calibration in flash, so when restarted you do not need to recalibrate.
 
 #  Links
