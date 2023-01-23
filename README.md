@@ -7,17 +7,16 @@ Gyro units = deg/s<br />
 Acc units = g  9.81m/s*s<br />
 See cherry file.
 
-What a ride to get it working correct.<br />
+What a ride to get it working correct :).<br />
     - issues calibration <br />
         -accz average = (value -g) /samples <br />
-    - Yaw is not stable due to the fact no magnetometer.<br />
-    - to measure angles you need to sampletime reading that not varies.
+    - formulas jeezes got lost in the beginning what is correct. 
+    - Yaw is not stable with mpu6050 due to the fact no magnetometer.<br />
+    - To measure angles you need to sampletime reading that not varies.
 
 Roll and pitch work fine now and stable.<br /> 
 Provide button for calibration.
 Save offsets calibration in flash, so when restarted you do not need to recalibrate.
-
-# applications
 
 #  Links
 1)joop brokken natural wonder explaining how : https://www.youtube.com/watch?v=4BoIE8YQwM8 <br />
@@ -32,9 +31,10 @@ Save offsets calibration in flash, so when restarted you do not need to recalibr
 6)Davide Gironi's AVR atmega MPU6050<br/>
           http://davidegironi.blogspot.com/2013/02/avr-atmega-mpu6050-gyroscope-and.html#.W7zM7mgzaUk  <br />
 
- # Note use of Freeware program cherrytree one of the best note making soft and opensource. :<br />
-Cherrytree freeware program to make project file. Top tool to keep notes for your projects. *.ctd extension<br />
+ # Note Program cherrytree one of the best note making soft and opensource. :<br />
+Cherrytree freeware program to make project file. Top tool to keep notes for your projects. *.ctd extension <br />
+                   <br />
 Tip include "somelib.h" when this file is in your sketch folder it will load. Stumbled on this during project nice to know.<br />
 Tip use tab in arduino ide to write subs in separate tabs. makes coding it bit easier.<br />
-Watch out you have to convert to rad when using tan sin etc in arduino angles are in rad!!!.<br />
+Tip when using functions tan sin etc in arduino angles are in rad!!!.<br />
 
