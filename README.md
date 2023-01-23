@@ -2,7 +2,7 @@
 working with mpu6050<br />
 Measure acc x y z---- =>vibration measurement<br />
 Measure angles turning =>balancing<br />
-Gyro units = deg/s<br />
+Gyro units = deg/s*s<br />
 Acc units = g  9.81m/s*s<br />
 See cherry file (*.ctd).
 
