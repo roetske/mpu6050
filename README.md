@@ -55,5 +55,7 @@ Cherrytree freeware program to make project file. Top tool to keep notes for you
                    <br />
 Tip include "somelib.h" when this file is in your sketch folder it will load. Stumbled on this during project nice to know.<br />
 Tip use tab in arduino ide to write subs in separate tabs. makes coding it bit easier.<br />
+Tip load library in sketch folder #include "somelib.h" it will load from sketchfolder instead of libraries in arduino <br />
+    <somelib.h> will load from standard location "somelib.h" will load from sketchfolder <br />
 Tip when using functions tan sin etc in arduino angles are in rad!!!.<br />
 
