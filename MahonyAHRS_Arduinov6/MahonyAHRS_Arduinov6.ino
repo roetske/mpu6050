@@ -213,10 +213,10 @@ void initlcd()
   lcd.print(DTmpu);
   lcd.setCursor(0,1); 
   lcd.print("Gyrogain=");
-  lcd.print( MPU6050_GyroGAIN);
+  lcd.print( MPU6050_GyroGAIN,2);//2 digits after .
   lcd.setCursor(0,2); 
   lcd.print("AccGain=");
-  lcd.print( MPU6050_AccGAIN,8);
+  lcd.print( MPU6050_AccGAIN,2);
   delay(5000);                                                        
   lcd.clear();   
 }
