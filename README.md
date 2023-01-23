@@ -8,7 +8,7 @@ Acc units = g  9.81m/s*s<br />
 See cherry file (*.ctd).
 
 What a ride to get it working correct :).<br />
-    - settings mpu6050 conf see cherry file.
+    - settings mpu6050 conf see cherry file.<br />
     - issues calibration <br />
         -accz average = (value -g) /samples <br />
     - formulas jeezes got lost in the beginning what is correct. <br />
