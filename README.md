@@ -28,13 +28,14 @@ lcd 20x4 with i2c <br />
 button to select calibration <br />
 led blink not stuck <br />
 
-#Short explanation project
+# Short explanation project
 
 Display of roll and pitch of sensor mpu6050 on lcd. <br />
 Pushbutton to calibrate. <br />
 Special  in program each time you calibrate with pushbutton values are saved into flash. <br />
 So when esp is restarted it reads the values in flash and you do not have to recalibrate. <br />
 It also means that you do not have to recompile when calibration offsets change for whatever reason. <br />
+
 
 #  Links
 1)joop brokken natural wonder explaining how : https://www.youtube.com/watch?v=4BoIE8YQwM8 <br />
