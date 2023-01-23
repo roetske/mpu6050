@@ -36,7 +36,7 @@ Save offsets calibration in flash, so when restarted you do not need to recalibr
 6)Davide Gironi's AVR atmega MPU6050<br/>
           http://davidegironi.blogspot.com/2013/02/avr-atmega-mpu6050-gyroscope-and.html#.W7zM7mgzaUk  <br />
 
- # Note Program cherrytree one of the best note making soft and opensource. :<br />
+ # Notes :<br />
 Cherrytree freeware program to make project file. Top tool to keep notes for your projects. *.ctd extension <br />
                    <br />
 Tip include "somelib.h" when this file is in your sketch folder it will load. Stumbled on this during project nice to know.<br />
