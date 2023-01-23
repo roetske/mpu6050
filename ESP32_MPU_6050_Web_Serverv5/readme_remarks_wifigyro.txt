@@ -1,2 +1,2 @@
-Werkt maar gaat niet naar 0 na verdraaien.
-maw gyro compensatie is niet goed.
+works but does not go back to 0
+Nice visual effect but not correct.
