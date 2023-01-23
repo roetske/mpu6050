@@ -12,8 +12,8 @@ References:
   modules
   --------
   esp32 dev mod 38 pins
-  lcd i2c 20x4 
-  mpu6050 i2c 
+  lcd i2c 20x4 adress 0x27
+  mpu6050 i2c adress 0x68
   levelshifter 5 3.3 to 5v (needed for lcd does not work on 3.3v (backlight))
   green led active blink
   pushbutton for calibration
