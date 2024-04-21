@@ -49,6 +49,7 @@ It also means that you do not have to recompile when calibration offsets change 
           https://github.com/kriswiner/MPU6050 <br /> 
 6)Davide Gironi's AVR atmega MPU6050<br/>
           http://davidegironi.blogspot.com/2013/02/avr-atmega-mpu6050-gyroscope-and.html#.W7zM7mgzaUk  <br />
+7) link youtube => https://www.youtube.com/watch?v=PjZWiBhST1U&t=35s  <br />
 
  # Notes :<br />
 Cherrytree freeware program to make project file. Top tool to keep notes for your projects. *.ctd extension <br />
