@@ -16,7 +16,7 @@ What a ride to get it working correct :).<br />
             - angles (roll,pitch,yaw) are combination of acc and gyro <br />
                    - and here you need your formulas <br />
                    - gyro values have to be measured at fix samplerate for calculations.<br />
-            - Yaw is not stable with mpu6050 due to the fact no magnetometer.<br />   
+            - Yaw is not stable with mpu6050 due to the fact no magnetometer.  
             
 Roll and pitch work fine now and stable.<br /> 
 Provided button for calibration. <br /> 
