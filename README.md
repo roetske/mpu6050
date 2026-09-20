@@ -35,11 +35,10 @@ Pushbutton to calibrate. <br />
 Special  in program each time you calibrate with pushbutton values are saved into flash. <br />
 So when esp is restarted it reads the values in flash and you do not have to recalibrate. <br />
 It also means that you do not have to recompile when calibration offsets change for whatever reason. <br />
-
+youtube testing module with my code:https://www.youtube.com/watch?v=PjZWiBhST1U  . < br />
 
 #  Links
 
-0) youtube testing module with my code:https://www.youtube.com/watch?v=PjZWiBhST1U  . < br />
 1)joop brokken natural wonder explaining how : https://www.youtube.com/watch?v=4BoIE8YQwM8 <br />
 2)Adafuit mpu6050 one of the most extensive and well written libs but i struggled to measure angles.<br />
      Cycletime >50ms not good for me. <br />
