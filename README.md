@@ -16,7 +16,7 @@ What a ride to get it working correct :).<br />
             - angles (roll,pitch,yaw) are combination of acc and gyro <br />
                    - and here you need your formulas <br />
                    - gyro values have to be measured at fix samplerate for calculations.<br />
-            - Yaw is not stable with mpu6050 due to the fact no magnetometer.  
+            - Yaw is not stable with mpu6050 due to the fact no magnetometer.  <br />
             
 Roll and pitch work fine now and stable.<br /> 
 Provided button for calibration. <br /> 
@@ -35,7 +35,7 @@ Pushbutton to calibrate. <br />
 Special  in program each time you calibrate with pushbutton values are saved into flash. <br />
 So when esp is restarted it reads the values in flash and you do not have to recalibrate. <br />
 It also means that you do not have to recompile when calibration offsets change for whatever reason. <br />
-youtube testing module with my code:https://www.youtube.com/watch?v=PjZWiBhST1U  . < br />
+youtube testing module with my code:https://www.youtube.com/watch?v=PjZWiBhST1U  
 
 #  Links
 
